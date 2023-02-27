@@ -25,7 +25,7 @@ Caution: Do not remove anything from `names.txt` or the `model.h5` may not work 
 ## Basic example
 
 ```py
-from name_generator_ai import generate_name as gn
+from name_creator_ai import generate_name as gn
 
 for i in range(1, 11):
     print(gn("Ken", temperature=round(i / 10, 1)))  # This is to generate names from a temperature range from 0.1 to 1.0
