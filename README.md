@@ -34,16 +34,16 @@ for i in range(1, 11):
 This is the result:
 
 ```
-Kengt  #Temperature 0.1
-Kenfx  #Temperature 0.2
-Keneor  #Temperature 0.3
-Kenenua  #Temperature 0.4
-Kenyhi  #Temperature 0.5
-Kenim  #Temperature 0.6
+Kengt      #Temperature 0.1
+Kenfx      #Temperature 0.2
+Keneor     #Temperature 0.3
+Kenenua    #Temperature 0.4
+Kenyhi     #Temperature 0.5
+Kenim      #Temperature 0.6
 Kenrlaeai  #Temperature 0.7
-Kenoeon  #Temperature 0.8
-Kennki  #Temperature 0.9
-Kenaeyii  #Temperature 1.0, can be turned into Kenaeyi'i later
+Kenoeon    #Temperature 0.8
+Kennki     #Temperature 0.9
+Kenaeyii   #Temperature 1.0, can be turned into Kenaeyi'i later
 ```
 
 Notice that the first names looks gibberish. </br>
