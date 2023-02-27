@@ -7,7 +7,7 @@ setup(
     description='An simple open source name generator.',
     author='A Weirdo Dev',
     python_requires='>=3.6.0',
-    py_modules=['name_creator'],
+    packages=['name_creator'],
     install_requires=['tensorflow', 'numpy'],
     license='MIT'
 )
