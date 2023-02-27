@@ -1,4 +1,5 @@
 import os
+from preprocessing import max_length, char_to_int
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Dropout
 
