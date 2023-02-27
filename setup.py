@@ -1,7 +1,7 @@
 from requests import get
 from setuptools import setup
 
-here = get('https://raw.githubusercontent.com/Yan908/name-generator-ai/main/README.md')
+here = get('https://raw.githubusercontent.com/Yan908/name-generator-ai/main/README.md').text
 
 with open(here) as f:
     long_description = '\n' + f.read()
