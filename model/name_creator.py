@@ -1,6 +1,8 @@
 import random
 import numpy as np
 import re
+from model_creator import model
+from preprocessing import max_length, char_to_int
 from tensorflow.python.ops.numpy_ops.np_random import seed
 
 seed(42)  # Set seed for fixing values
