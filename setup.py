@@ -1,9 +1,9 @@
-import io
+from requests import get
 from setuptools import setup
 
-here = os.path.abspath(os.path.dirname(__file__))
+here = get('https://raw.githubusercontent.com/Yan908/name-generator-ai/main/README.md')
 
-with open('README.md') as f:
+with open(here) as f:
     long_description = '\n' + f.read()
     
 setup(
