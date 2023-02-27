@@ -1,7 +1,7 @@
 # Name Generator AI
 
 A Simple name generator created using Keras for training text generation with Artificial Intelligence. </br>
-It's not open to be used commercially, however, feel free to use it in any educational or personal project.
+It's not recommended to be used commercially, however, feel free to use it in any educational or personal project.
 
 ## How it works?
 
