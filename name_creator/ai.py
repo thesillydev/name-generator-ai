@@ -37,7 +37,7 @@ model.add(Dense(len(char_to_int) + 1, activation='sigmoid'))  # Softmax tend to 
 model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])  # Mean Square Error made a huge difference in question of performance... Made it start the training from 195 loss to barely 0.3 loss
 model.load_weights('model.h5')
 # If you wanna train the model even more(It has 94.5% accuracy and loss of 10^-4 but you can optimize it):
-# model.fit(X, Y, batch_size=ANY, epochs=ANY)
+# model.fit(x, y, batch_size=ANY, epochs=ANY)
 # model.save_weights('model.h5')
 
 
