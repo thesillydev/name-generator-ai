@@ -38,7 +38,7 @@ model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])  # Mean Square
 model.load_weights('model.h5')
 # If you wanna train the model even more(It has 94.5% accuracy and loss of 10^-4 but you can optimizee it):
 # model.fit(X, Y, batch_size=ANY, epochs=ANY)
-# model.load_weights('model.h5')
+# model.save_weights('model.h5')
 
 
 # Function to determinate the temperature of the generated values:
